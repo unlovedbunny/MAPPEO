@@ -10,7 +10,7 @@ Mappeo é uma rede social mobile baseada em geolocalização, onde usuários pod
 
 | Boas-vindas |
 |:-----------:|
-| ![Welcome Screen](docs/screenshots/tela-inicial.png) |
+| ![Welcome Screen](mappeo/telas/tela-inicial.png) |
 
 ---
 
