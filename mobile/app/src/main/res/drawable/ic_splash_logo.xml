@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Círculo do globo -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/white"
+        android:strokeWidth="2.5"
+        android:pathData="M24,4 A20,20 0 1 1 23.999,4 Z"/>
+
+    <!-- Linhas horizontais do globo -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/white"
+        android:strokeWidth="2"
+        android:pathData="M4,24 L44,24"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/white"
+        android:strokeWidth="1.5"
+        android:pathData="M8,15 Q24,10 40,15"/>
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/white"
+        android:strokeWidth="1.5"
+        android:pathData="M8,33 Q24,38 40,33"/>
+
+    <!-- Elipse vertical central -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/white"
+        android:strokeWidth="2"
+        android:pathData="M24,4 Q34,14 34,24 Q34,34 24,44 Q14,34 14,24 Q14,14 24,4 Z"/>
+
+    <!-- Pin de localização (centralizado no globo) -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M24,18 A4,4 0 1 1 23.999,18 Z"/>
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M24,22 L27,28 L24,31 L21,28 Z"/>
+
+</vector>

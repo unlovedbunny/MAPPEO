@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">MAPPEO</string>
+    <string name="app_name">Mappeo</string>
+
+    <!-- Welcome -->
+    <string name="welcome_slogan">Explore · Compartilhe · Descubra</string>
+    <string name="welcome_create_account">Criar Conta</string>
+    <string name="welcome_sign_in">Entrar</string>
+    <string name="welcome_terms">Ao continuar, você concorda com nossos Termos de Uso</string>
+
+    <!-- Acessibilidade -->
+    <string name="cd_app_logo">Logo do Mappeo</string>
+    <string name="cd_bg_welcome">Paisagem turística de boas-vindas</string>
 </resources>

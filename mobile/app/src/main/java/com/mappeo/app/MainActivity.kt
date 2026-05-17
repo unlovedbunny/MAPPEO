@@ -4,44 +4,25 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.mappeo.app.ui.theme.MAPPEOTheme
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.mappeo.app.navigation.MappeoNavGraph
+import com.mappeo.app.ui.theme.MappeoTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Inicializa a Splash Screen para aplicar o postSplashScreenTheme (Theme.Mappeo)
+        installSplashScreen()
+        
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
         setContent {
-            MAPPEOTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+            MappeoTheme {
+                MappeoNavGraph()
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    MAPPEOTheme {
-        Greeting("Android")
     }
 }
