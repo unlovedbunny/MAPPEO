@@ -10,7 +10,7 @@ Mappeo é uma rede social mobile baseada em geolocalização, onde usuários pod
 
 | Boas-vindas |
 |:-----------:|
-| ![Welcome Screen](telas/tela-inicial.png) |
+| <img src="telas/tela-inicial.png" width="180"/> |
 
 ---
 
@@ -196,7 +196,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👩‍💻 Autora
 
-Desenvolvido por **Duda** como projeto acadêmico.
+Desenvolvido por **Duda** como projeto acadêmico da disciplina de Dispositivos Móveis.
 
 ---
 
