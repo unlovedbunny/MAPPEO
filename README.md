@@ -1,4 +1,4 @@
-# 🌍 Mappeo
+postgres# 🌍 Mappeo
 
 > **Explore. Compartilhe. Descubra.**
 
@@ -83,6 +83,20 @@ UI (Compose)
                     └── Repository (interface)
                             └── RemoteDataSource / LocalDataSource
 ```
+
+---
+
+## 📱 Arquitetura de Software
+
+| Casos de Uso |
+|:-----------:|
+| <img src="docs/casos-de-uso.jpg" width="180"/> |
+
+## 📱 Screenshots
+
+| Boas-vindas |
+|:-----------:|
+| <img src="telas/tela-inicial.png" width="280"/> |
 
 ---
 
